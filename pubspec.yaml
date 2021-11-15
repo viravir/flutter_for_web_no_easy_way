@@ -1,0 +1,40 @@
+name: flutter_for_web_no_easy_way
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobx: 2.0.5
+  flutter_mobx: 2.0.2
+  cupertino_icons: 1.0.2
+  native_video_player:
+    path: ./plugins/native_video_player/native_video_player
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  get_it: 7.2.0
+  mobx_codegen: 2.0.4
+  build_runner: 2.1.5
+  flutter_lints: 1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/png/play.png
+    - assets/images/png/pause.png
+    - assets/images/svg/play.svg
+    - assets/images/svg/pause.svg
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf

@@ -1,0 +1,4 @@
+node_modules
+dist
+# Do not omit in production projects!
+package-lock.json
