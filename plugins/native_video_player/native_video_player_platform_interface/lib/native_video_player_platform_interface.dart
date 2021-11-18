@@ -18,7 +18,7 @@ abstract class NativeVideoPlayerPlatform extends PlatformInterface {
   static NativeVideoPlayerPlatform get instance => _instance;
 
   /// Platform-specific plugins should set this with their own platform-specific
-  /// class that extends [UrlLauncherPlatform] when they register themselves.
+  /// class that extends [NativeVideoPlayerPlatform] when they register themselves.
   static set instance(NativeVideoPlayerPlatform instance) {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;

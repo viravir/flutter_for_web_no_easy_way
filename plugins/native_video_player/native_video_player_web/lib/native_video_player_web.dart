@@ -11,9 +11,7 @@ import 'package:native_video_player_web/ui/native_video_player_web.dart';
 import 'package:native_video_player_web/web_platform_api.dart'
     as web_platform_api;
 
-/// The web implementation of [UrlLauncherPlatform].
-///
-/// This class implements the `package:url_launcher` functionality for the web.
+/// The web implementation of [NativeVideoPlayerPlatform].
 class NativeVideoPlayer extends NativeVideoPlayerPlatform {
   int textureIdCounter = 0;
 
